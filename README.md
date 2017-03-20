@@ -12,11 +12,12 @@ It was currently tested only for linux and ROS Indigo turtlebot
 
 ## Installation
 
-### Install pocketsphinx and pyaudio
+### Install pocketsphinx with dependencies
 
 ```
-pip install pocketsphinx
-pip install pyaudio
+sudo apt-get install -y python python-dev python-pip build-essential swig libpulse-dev git
+sudo pip install pyaudio
+sudo pip install pocketsphinx
 ```
 
 ### Install ROS
